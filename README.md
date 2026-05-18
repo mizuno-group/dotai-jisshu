@@ -12,8 +12,7 @@
 
 1. 上の Colab リンクを開く。
 2. 左上**ファイル**→**ドライブにコピーを保存** を押す。
-3. コピーされた notebook を上から順に実行する。
-4. TAの指示に従い、入力・実行していく。（**入力を求められている箇所以外のコード変更や危険な文字列の入力は全て自己責任となります。**）
+3. TAの指示に従い、入力・実行していく。（**入力を求められている箇所以外のコード変更は行わないでください。**）
 
 ## Repository structure
 
@@ -45,4 +44,5 @@ If you have any questions or comments, please feel free to create an issue on gi
 
 ## Development & DEBUG
 TAはここからテストを行ってください。
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lzh-Function/dotai-jisshu/blob/main/notebooks/pkpd_silico.ipynb)
