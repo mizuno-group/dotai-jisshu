@@ -35,7 +35,7 @@ def runge_kutta(func, param_list, name):
  
     for v,w in zip(sols, name):
         plt.plot(t, v[:,0], label=w)
-        all_sol[w] = v[:,0]
+        all_sol[f"{w}_artery"] = v[:, 0]
     plt.xlabel("Time (min)", fontsize=12)
     plt.ylabel("Conc. (nmol/mL)", fontsize=12)
     plt.grid(axis="both", lw=0.5, ls="--")
@@ -45,7 +45,7 @@ def runge_kutta(func, param_list, name):
 
     for v, w in zip(sols, name):
         plt.plot(t, v[:,-1], label=w)
-        all_sol[w] = v[:,-1]
+        all_sol[f"{w}_liver"] = v[:, -1]
     plt.xlabel("Time (min)", fontsize=12)
     plt.ylabel("Conc. (nmol/mL)", fontsize=12)
     plt.grid(axis="both", lw=0.5, ls="--")
@@ -55,7 +55,7 @@ def runge_kutta(func, param_list, name):
 
     for v, w, x in zip(sols, name, param_list):
         plt.plot(t, v[:,-1]*x[10]*x[16], label=w)
-        all_sol[w] = v[:,-1]*x[10]*x[16]
+        all_sol[f"{w}_bile_rate"] = v[:, -1] * x[10] * x[16]
     plt.xlabel("Time (min)", fontsize=12)
     plt.ylabel("Rate (nmol/min/kg)", fontsize=12)
     plt.grid(axis="both", lw=0.5, ls="--")
