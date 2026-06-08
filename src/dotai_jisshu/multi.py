@@ -16,7 +16,7 @@ def fitting(func, data, init_params, method):
         if method == "two_compartment":
             col = col.replace(" (nmol/mL)", "")
         elif method == "Ki_predict":
-            col = col.replace(" (% of control)", "")
+            col = col.replace(" %CL (% of control)", "")
         params, cov = curve_fit(func, x, y, p0=init_params[col], sigma=y)
         optim_y = []
         for t in x:
