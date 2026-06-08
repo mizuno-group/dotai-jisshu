@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "latent-demo"
-version = "0.2.2"
-description = "Small Colab demos for latent variables and compound expression signatures"
+name = "dotai_jisshu"
+version = "1.0.0"
+description = "scripts for excellent dotai jusshu"
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
@@ -20,10 +20,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/mizuno-group/latent-demo"
+Repository = "https://github.com/mizuno-group/dotai-jisshu"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
-[tool.setuptools.package-data]
-"latent_demo" = ["datasets/*.csv"]
