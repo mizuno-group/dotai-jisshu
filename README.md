@@ -38,11 +38,4 @@ dotai_jisshu
 
 ## Contact
 If you have any questions or comments, please feel free to create an issue on github here, or email us:  
-- tadahaya[at]gmail.com  
-
----
-
-## Development & DEBUG
-TAはここからテストを行ってください。
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lzh-Function/dotai-jisshu/blob/main/notebooks/pkpd_silico.ipynb)
+- tadahaya[at]gmail.com
